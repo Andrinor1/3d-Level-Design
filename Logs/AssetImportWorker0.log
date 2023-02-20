@@ -15,7 +15,7 @@ E:/Unity Projects/3D Dungeon Design
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57694
+58376
 Successfully changed project path to: E:/Unity Projects/3D Dungeon Design
 E:/Unity Projects/3D Dungeon Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Unity Projects/3D Dungeon Design
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18480] Host "[IP] 172.22.140.20 [Port] 0 [Flags] 2 [Guid] 2979744420 [EditorId] 2979744420 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QRPCUD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21296] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 1778021778 [EditorId] 1778021778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QRPCUD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18480] Host "[IP] 172.22.140.20 [Port] 0 [Flags] 2 [Guid] 2979744420 [EditorId] 2979744420 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QRPCUD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21296] Host "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 1778021778 [EditorId] 1778021778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QRPCUD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 298.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.039900 seconds.
+Registered in 0.014677 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 272.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.770 seconds
+- Completed reload, in  0.904 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2772ms)
-		BeginReloadAssembly (307ms)
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1900ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (486ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (1092ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (394ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (274ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (590ms)
-				ProcessInitializeOnLoadMethodAttributes (191ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025170 seconds.
+Registered in 0.005722 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\3D Dungeon Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\3D Dungeon Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.351 seconds
+- Completed reload, in  1.869 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4355ms)
-		BeginReloadAssembly (439ms)
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (3372ms)
-			LoadAssemblies (356ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1514ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1115ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (209ms)
-			SetupLoadedEditorAssemblies (1504ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (700ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (333ms)
-				ProcessInitializeOnLoadAttributes (916ms)
-				ProcessInitializeOnLoadMethodAttributes (142ms)
-				AfterProcessingInitializeOnLoad (77ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3818.
-Memory consumption went from 115.5 MB to 115.4 MB.
-Total: 11.103100 ms (FindLiveObjects: 0.725500 ms CreateObjectMapping: 0.302600 ms MarkObjects: 9.782400 ms  DeleteObjects: 0.288800 ms)
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3821.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 7.347900 ms (FindLiveObjects: 0.559900 ms CreateObjectMapping: 0.586900 ms MarkObjects: 5.866100 ms  DeleteObjects: 0.331400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,163 +163,543 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1531762.483084 seconds.
-  path: Assets/Lite Voxel Dungion
-  artifactKey: Guid(76b751bca61418145a04eaf35c3d4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion using Guid(76b751bca61418145a04eaf35c3d4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b96ed47c557a079778759aba2977ff1') in 0.031776 seconds 
+  Time since last request: 227623.960870 seconds.
+  path: Assets/AurynSky
+  artifactKey: Guid(3afecd3f0190a8c4fb0c36a92b2e0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky using Guid(3afecd3f0190a8c4fb0c36a92b2e0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd17c6ba6101427725e98ec6d92552d') in 0.021197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.173685 seconds.
-  path: Assets/Lite Voxel Dungion/Demo_info
-  artifactKey: Guid(8aceedf29c3a3b648b117a8f5be734d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Demo_info using Guid(8aceedf29c3a3b648b117a8f5be734d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b77246e51214a30141b1e109b540441') in 0.011003 seconds 
+  Time since last request: 0.497595 seconds.
+  path: Assets/AurynSky/Dungeon Pack/READ ME.txt
+  artifactKey: Guid(a55d1b651c763de44b74c3d4c9b74b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/READ ME.txt using Guid(a55d1b651c763de44b74c3d4c9b74b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b69133eff7138d8393d8f3aa16b98c8') in 0.045019 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.082526 seconds.
-  path: Assets/Lite Voxel Dungion/Demo_info/Example Scene.unity
-  artifactKey: Guid(d6c9fbb6a799817499e0efa3d72a3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Demo_info/Example Scene.unity using Guid(d6c9fbb6a799817499e0efa3d72a3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3119012eb964e0f79baaa6df572a87d') in 0.013950 seconds 
+  Time since last request: 8.133637 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Animation
+  artifactKey: Guid(a5693648c35c21f448e275db3260a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Animation using Guid(a5693648c35c21f448e275db3260a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f240d6dde636f2c5f8ffe7bc1f4baed') in 0.007832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.328368 seconds.
-  path: Assets/Lite Voxel Dungion/Demo_info/Demo Scene.unity
-  artifactKey: Guid(a73420d335e21e7478c0fa049f1b24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Demo_info/Demo Scene.unity using Guid(a73420d335e21e7478c0fa049f1b24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5ce6523f7a10aa1ff51b30347a77ac') in 0.011549 seconds 
+  Time since last request: 2.056407 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Materials
+  artifactKey: Guid(7458f0d586430ea4a8c119b1b630a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Materials using Guid(7458f0d586430ea4a8c119b1b630a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef54762bf7126a2c60b5bf3700c514cf') in 0.007881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.240358 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.012773 seconds 
+  Time since last request: 2.286551 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Materials/ColorPaletteBLUE.mat
+  artifactKey: Guid(87b4f5e88fc2f854c9313b90039fe33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Materials/ColorPaletteBLUE.mat using Guid(87b4f5e88fc2f854c9313b90039fe33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b02d85b8d44d6dc59316f1234b6aa5') in 0.237859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.656669 seconds.
-  path: Assets/Lite Voxel Dungion/Walls
-  artifactKey: Guid(55d46b72c9f4c21458649d6caf1b58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls using Guid(55d46b72c9f4c21458649d6caf1b58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e1fc518f2f7fabf8ce8926408c68e5') in 0.011699 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Materials/Grey.mat
+  artifactKey: Guid(18e0c23b3ae1ab24a94f61d82f8a53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Materials/Grey.mat using Guid(18e0c23b3ae1ab24a94f61d82f8a53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abcd9e08068dfbcec87e6bb96ad85f') in 0.198497 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002472 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/door gold.prefab
-  artifactKey: Guid(b8f375099cdf31b4696ca5d9dff965dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/door gold.prefab using Guid(b8f375099cdf31b4696ca5d9dff965dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51c46422614f7b9b4ab762034af8ae9') in 1.195698 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Materials/CubeParticlesDungeon.mat
+  artifactKey: Guid(4ce91753a4eefbf468aabe35fd427b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Materials/CubeParticlesDungeon.mat using Guid(4ce91753a4eefbf468aabe35fd427b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62567b050d31311d38c275e0e287da1') in 0.050397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Window Wall.prefab
-  artifactKey: Guid(ef7193dca43878941a8997ff2367f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Window Wall.prefab using Guid(ef7193dca43878941a8997ff2367f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96297f2dde2ddc5b0899bc87dfdb8c9') in 0.036529 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Materials/DemoGround.mat
+  artifactKey: Guid(1f3518228ef95614e819aafeeee47833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Materials/DemoGround.mat using Guid(1f3518228ef95614e819aafeeee47833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf883c46a93bb5446011a94a47d47477') in 0.019171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Large wall.prefab
-  artifactKey: Guid(5b2f7ade56665ed489053a8585e122f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Large wall.prefab using Guid(5b2f7ade56665ed489053a8585e122f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1c49d94f4f7ce3deafb94a320f4c9') in 0.040521 seconds 
+  Time since last request: 0.693144 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models
+  artifactKey: Guid(255313e9feb5d174f98136d385bd7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models using Guid(255313e9feb5d174f98136d385bd7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f689215903f6e4ed970b8ee001fd67e2') in 0.009109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.984529 seconds.
-  path: Assets/Lite Voxel Dungion/Floors
-  artifactKey: Guid(5cb95709d317edd4da6f806167300811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Floors using Guid(5cb95709d317edd4da6f806167300811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48bdd0eb18ada7080989fd7d4b041b4') in 0.017303 seconds 
+  Time since last request: 0.101024 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BannerD.fbx
+  artifactKey: Guid(fbbfcd251acb5824798ec6df5aafe31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BannerD.fbx using Guid(fbbfcd251acb5824798ec6df5aafe31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3afda3db28901c6aa24286edaaa16ee') in 0.139654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.082675 seconds.
-  path: Assets/Lite Voxel Dungion/Floors/lavafloor.prefab
-  artifactKey: Guid(56ddfc9cbdb461340b6a43d534d4e5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Floors/lavafloor.prefab using Guid(56ddfc9cbdb461340b6a43d534d4e5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4e91a35d932d714ec73fd552dccbbc') in 0.036108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.834272 seconds.
-  path: Assets/Lite Voxel Dungion/Floors/Textures
-  artifactKey: Guid(7572a429dcddb354faf252d64d143c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Floors/Textures using Guid(7572a429dcddb354faf252d64d143c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b87454037277c503de5aef974bfe48b') in 0.010480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.463570 seconds.
-  path: Assets/Lite Voxel Dungion/Floors/Textures/lavafloor.png
-  artifactKey: Guid(c7b99e3892cdb0d4d912975da594560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Floors/Textures/lavafloor.png using Guid(c7b99e3892cdb0d4d912975da594560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aae2600fdb39d6e4187d1bdcb7d2ad') in 0.100057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.007582 seconds.
-  path: Assets/Scenes/Dungeon 1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dungeon 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd812b4d954c25caad99ddb09fec56889') in 0.009456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3109.718703 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Objects
-  artifactKey: Guid(801e6098ee30c8748b4361c46c34c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Objects using Guid(801e6098ee30c8748b4361c46c34c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c90680d2b10583dfa0e883ce1639cdc') in 0.022935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Objects/Small Bars Wall.fbx
-  artifactKey: Guid(55ead78869e0fcf42aa4f472384769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Objects/Small Bars Wall.fbx using Guid(55ead78869e0fcf42aa4f472384769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d66e0f9e2d9a3a688618b0b92526f01') in 0.705227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Objects/Door wall.fbx
-  artifactKey: Guid(cfccc4459da5e90428958945853e20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Objects/Door wall.fbx using Guid(cfccc4459da5e90428958945853e20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed998ecbdb774c5cf4d1d575a7e4567f') in 0.061573 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/CageD.fbx
+  artifactKey: Guid(83d4354d94f1f1443b3fa423f4639a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/CageD.fbx using Guid(83d4354d94f1f1443b3fa423f4639a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7aa2a8d1e1eb9137efd8c448bf65d9') in 0.031932 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000057 seconds.
-  path: Assets/Lite Voxel Dungion/Walls/Objects/Window Wall.fbx
-  artifactKey: Guid(fc130d3bdb27540499e2cf97677f0de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Walls/Objects/Window Wall.fbx using Guid(fc130d3bdb27540499e2cf97677f0de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58fd156de23f306c6625bb457e6d61a') in 0.061026 seconds 
+  path: Assets/AurynSky/Dungeon Pack/Models/ChainTopD.fbx
+  artifactKey: Guid(1e44e54d82a52904fbd7fca1d4f9e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/ChainTopD.fbx using Guid(1e44e54d82a52904fbd7fca1d4f9e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d20ddb9e638027398ac60ce082022') in 0.030349 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 267.856796 seconds.
-  path: Assets/Lite Voxel Dungion/Items
-  artifactKey: Guid(4ebfd437d32a31f48b4f4a8e73c62157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items using Guid(4ebfd437d32a31f48b4f4a8e73c62157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b701a71026e1736b0a2c028ad98999c3') in 0.010479 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BlockSpike01D.fbx
+  artifactKey: Guid(1a5dcf5c28e4b4049941bd2c8cb7b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BlockSpike01D.fbx using Guid(1a5dcf5c28e4b4049941bd2c8cb7b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee34bd037936823a719baa0a5fc94fe') in 0.028277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.043807 seconds.
-  path: Assets/Lite Voxel Dungion/Items/barral.prefab
-  artifactKey: Guid(7d95afe9387321e468f493ec66e1ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/barral.prefab using Guid(7d95afe9387321e468f493ec66e1ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859cd2510145c56b27457ba36eff157b') in 0.039995 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BrazzierD.fbx
+  artifactKey: Guid(e474ac24e4a142743b1d193bce55e295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BrazzierD.fbx using Guid(e474ac24e4a142743b1d193bce55e295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b02662bc6be936d3e5e163fe368022') in 0.031235 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Lite Voxel Dungion/Items/key.prefab
-  artifactKey: Guid(a4fc74754b9e79245900f5c1c540e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/key.prefab using Guid(a4fc74754b9e79245900f5c1c540e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b41f498271b50635679b75aa283e07') in 0.040521 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Blade01D.fbx
+  artifactKey: Guid(5ced8aeb49e1ee3418b6badab445c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Blade01D.fbx using Guid(5ced8aeb49e1ee3418b6badab445c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c579a507c8599a8428920b76bf32f58a') in 0.027797 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Red Potion.prefab
-  artifactKey: Guid(bdff4121f43153443915c39b7b0b1a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Red Potion.prefab using Guid(bdff4121f43153443915c39b7b0b1a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95e4429c5cfbc3527c5532de456fea0') in 0.329052 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/SkullOpenD.fbx
+  artifactKey: Guid(b9236b4abd7c4514ea211709ab40f9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/SkullOpenD.fbx using Guid(b9236b4abd7c4514ea211709ab40f9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518fae7aec8215214b4861963f7851a1') in 0.030596 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.241265 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Objects
-  artifactKey: Guid(3b4c1ec5123c01f47a61f3de453b8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Objects using Guid(3b4c1ec5123c01f47a61f3de453b8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653d29888bef117599e267168fb5b34') in 0.010506 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/ChainD.fbx
+  artifactKey: Guid(41a0ec3261bfe4745b912d53e367ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/ChainD.fbx using Guid(41a0ec3261bfe4745b912d53e367ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b51aaceb8f983d1924bf3b3afbdaa8') in 0.027443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.054648 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Objects/barral.fbx
-  artifactKey: Guid(ad6b606beb63d0746b4dc1d8c85c0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Objects/barral.fbx using Guid(ad6b606beb63d0746b4dc1d8c85c0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac5627de64bed8604c6ec30e9b04c46') in 0.053387 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BridgeD.fbx
+  artifactKey: Guid(ada6e50a1265db04a9cbc25cc77e0e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BridgeD.fbx using Guid(ada6e50a1265db04a9cbc25cc77e0e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de1ee85e6d925d750d9e285877c9842') in 0.031868 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Objects/key.fbx
-  artifactKey: Guid(810bd1ea1bc73cd4a8685e2d01e7fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Objects/key.fbx using Guid(810bd1ea1bc73cd4a8685e2d01e7fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6681f4a02c7d70a303d110c117e2e9b1') in 0.066845 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Pillar01D.fbx
+  artifactKey: Guid(cc9aa7f92b832314cb6792844df56284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Pillar01D.fbx using Guid(cc9aa7f92b832314cb6792844df56284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db137836823c26bd17ab0c9c818c6b3') in 0.028563 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Objects/Heart Full.fbx
-  artifactKey: Guid(cc2569e506ec58a4fb5b4e59da4223e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Objects/Heart Full.fbx using Guid(cc2569e506ec58a4fb5b4e59da4223e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d36599e87b402e95533f5e1848cae') in 0.058141 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BlockSpike02D.fbx
+  artifactKey: Guid(b9097d52891570045adcbab7d591a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BlockSpike02D.fbx using Guid(b9097d52891570045adcbab7d591a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff11357fb26af129ba5830e7f51768bb') in 0.026681 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Lite Voxel Dungion/Items/Objects/potion Bottle.fbx
-  artifactKey: Guid(0888e5b3b24ceb140aea6c2e7d11ec32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lite Voxel Dungion/Items/Objects/potion Bottle.fbx using Guid(0888e5b3b24ceb140aea6c2e7d11ec32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4152df06a307b1af3bc1a72ed310322') in 0.064370 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BannerHolderSD.fbx
+  artifactKey: Guid(0b998829fc4451645b3c1f726c213dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BannerHolderSD.fbx using Guid(0b998829fc4451645b3c1f726c213dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd98e19bb2047270eab48b04e21ee73') in 0.030049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Pole02D.fbx
+  artifactKey: Guid(8f96c8f1bf816094a9be5b62a1ca2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Pole02D.fbx using Guid(8f96c8f1bf816094a9be5b62a1ca2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040363f5e54085c4bccf023bdebc317f') in 0.028038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/CoinD.fbx
+  artifactKey: Guid(24459aceb5e9d4d4e889d002999dfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/CoinD.fbx using Guid(24459aceb5e9d4d4e889d002999dfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb869bf9806316ea7d444b482d9ccea') in 0.029574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/DoorRD.fbx
+  artifactKey: Guid(5f60ab843df9230469f4c9c278fa44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/DoorRD.fbx using Guid(5f60ab843df9230469f4c9c278fa44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30059571fcb3bf3808c2b24fbdd955e') in 0.030354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/StatueD.fbx
+  artifactKey: Guid(cb5f60e0ab71db040bc7971ccc94e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/StatueD.fbx using Guid(cb5f60e0ab71db040bc7971ccc94e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747b76f444fcc869381788b91a08e2d4') in 0.034617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/BlockL01D.fbx
+  artifactKey: Guid(19a8fc8898a42ee488ff1e863c17a59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/BlockL01D.fbx using Guid(19a8fc8898a42ee488ff1e863c17a59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855bc08248f8792c9aff10b9cfd2fc55') in 0.027254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Floor02D.fbx
+  artifactKey: Guid(3141cea43c2a8484c8683d2d65a5d8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Floor02D.fbx using Guid(3141cea43c2a8484c8683d2d65a5d8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f206689130d017c8c68178f633bf5a5c') in 0.028410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Pole01D.fbx
+  artifactKey: Guid(b44d9254a0fef834ab376d3bb2ff70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Pole01D.fbx using Guid(b44d9254a0fef834ab376d3bb2ff70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de477759853c8b8da41ef393931d1cda') in 0.030891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/Floor01D.fbx
+  artifactKey: Guid(9785164cfb353eb4d9ae55cc30780781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/Floor01D.fbx using Guid(9785164cfb353eb4d9ae55cc30780781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3ddb431b93dde7f5ecc00ec4374446') in 0.028410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Models/GrateTrapD.fbx
+  artifactKey: Guid(1bb56df4b9ba24840bbfe7e3f0cec5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Models/GrateTrapD.fbx using Guid(1bb56df4b9ba24840bbfe7e3f0cec5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa119397f343be27ca8b503ee6f5c33d') in 0.025935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.920548 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs
+  artifactKey: Guid(975f2f50fc1b57c439c43705c438ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs using Guid(975f2f50fc1b57c439c43705c438ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b2fe99498ecd7848f02d3c38762e0') in 0.008437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.753887 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Traps
+  artifactKey: Guid(a10efa1a553a41140844d1388ee30fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Traps using Guid(a10efa1a553a41140844d1388ee30fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd437fa0234c447bdf69dc9142ccdad1') in 0.008470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.325661 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Red
+  artifactKey: Guid(d1ae5fd565989904780ce05ba897236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Red using Guid(d1ae5fd565989904780ce05ba897236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09e56ea7046c5b484b4cfdea8fdc5ba') in 0.009967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061294 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Red/BannerHangingRed.prefab
+  artifactKey: Guid(e6d75278ebb9b8343a2b0dd25e2e2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Red/BannerHangingRed.prefab using Guid(e6d75278ebb9b8343a2b0dd25e2e2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccc7307f9d0d8e81937b58d194e72c0') in 0.029930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Red/Pillar02RedD.prefab
+  artifactKey: Guid(9495754c709bff341a2836b50fd2469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Red/Pillar02RedD.prefab using Guid(9495754c709bff341a2836b50fd2469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39c1167a25e1304cf359b0cd2084506') in 0.019449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Red/CastleRedD.prefab
+  artifactKey: Guid(0007f0f806b653e4883017758b5175ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Red/CastleRedD.prefab using Guid(0007f0f806b653e4883017758b5175ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f22fb6942050d4085213d8422c8e7e') in 0.031671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Red/Pillar01RedD.prefab
+  artifactKey: Guid(c88ac593385d6cd4999b920f228a573f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Red/Pillar01RedD.prefab using Guid(c88ac593385d6cd4999b920f228a573f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3e8c3fd7a399426a930ee9601ab80') in 0.019512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.233693 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/Blade01D.prefab
+  artifactKey: Guid(56ba4d3d8b4cefa43b3711410ea1ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Traps/Blade01D.prefab using Guid(56ba4d3d8b4cefa43b3711410ea1ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5cb3f8801121fb632701b2f6fb4e2b') in 0.014297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/SwingTrapD.prefab
+  artifactKey: Guid(ea052a89f68cccb4bb2bac3cdd6ac57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Traps/SwingTrapD.prefab using Guid(ea052a89f68cccb4bb2bac3cdd6ac57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f3b93173e8388598b613b96f8c723') in 0.020842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/SpikeTrapD.prefab
+  artifactKey: Guid(b58fdf950bf832348af4bfaa2fd9f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Traps/SpikeTrapD.prefab using Guid(b58fdf950bf832348af4bfaa2fd9f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06a927e3a4232f338edcce2c552904d') in 0.023913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.476519 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Blue
+  artifactKey: Guid(4aa05be0faea27440b5ec2722c5f8890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Blue using Guid(4aa05be0faea27440b5ec2722c5f8890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ee3e5624fd269ede358405fc9e4d29') in 0.009234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034590 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Blue/BannerHangingBlue.prefab
+  artifactKey: Guid(dd94f08ffd3dcfc4da7631490bc5c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Blue/BannerHangingBlue.prefab using Guid(dd94f08ffd3dcfc4da7631490bc5c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d778383afd14557e9b155c5b84abf24') in 0.023605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Blue/Pillar02Blue.prefab
+  artifactKey: Guid(c44079fbf7091444bb884a0ccf7d84ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Blue/Pillar02Blue.prefab using Guid(c44079fbf7091444bb884a0ccf7d84ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b020a411474427e2bd1b77b01b1648d3') in 0.019873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/Blue/CastleBlueD.prefab
+  artifactKey: Guid(340abaf0ec65aa642afbe22e18b0e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/Blue/CastleBlueD.prefab using Guid(340abaf0ec65aa642afbe22e18b0e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4ddd62b9e14f146511fb89464c8b83') in 0.032368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.394157 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General
+  artifactKey: Guid(2e036bddf73e91a458da79df105154de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General using Guid(2e036bddf73e91a458da79df105154de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc78e58c433432c3c24b44bf2017f54') in 0.008521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042186 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BannerHolderLD.prefab
+  artifactKey: Guid(985263db2533b52419975554afebca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BannerHolderLD.prefab using Guid(985263db2533b52419975554afebca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c827bbb802fcb31000d35fb8cbdda8') in 0.016254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike01D.prefab
+  artifactKey: Guid(cdf0efc2fc33b6f4588aeb36dfc0dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike01D.prefab using Guid(cdf0efc2fc33b6f4588aeb36dfc0dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3290b477a7184977cfd7e41cf71e55') in 0.016350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/TowerD.prefab
+  artifactKey: Guid(c428cce7819544e43825d891347548d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/TowerD.prefab using Guid(c428cce7819544e43825d891347548d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd29468ae72608a9cf34aed0cdbf213') in 0.017179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/SmokeD.prefab
+  artifactKey: Guid(170b52e0ef9a9f744985ad20e1ae2b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/SmokeD.prefab using Guid(170b52e0ef9a9f744985ad20e1ae2b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096810bd122a4ba621a8e56c696d995') in 0.023566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockS02D.prefab
+  artifactKey: Guid(da069710315859f45b006a49bab26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockS02D.prefab using Guid(da069710315859f45b006a49bab26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e95cf280803beb1fb06fb894290cbd') in 0.015389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor02D.prefab
+  artifactKey: Guid(505ad28b849b40247ac593fc3686dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor02D.prefab using Guid(505ad28b849b40247ac593fc3686dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23d3dc4d8f67778019ecfce1f6b1ff') in 0.016186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainD.prefab
+  artifactKey: Guid(64825d6cefec54e4cb33751b82e00e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainD.prefab using Guid(64825d6cefec54e4cb33751b82e00e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e522622a54fcada82245521f86c1a012') in 0.017555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChestTD.prefab
+  artifactKey: Guid(4e9a09516d6185f4eb1ba53020dedffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChestTD.prefab using Guid(4e9a09516d6185f4eb1ba53020dedffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ad7e5a2096c649cc327a76761111fd') in 0.019846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateD.prefab
+  artifactKey: Guid(8a61b0f9c401a88499c56369f7d4b194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateD.prefab using Guid(8a61b0f9c401a88499c56369f7d4b194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae978b2a6f9418818d497fa2f9d031fd') in 0.017416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainTopD.prefab
+  artifactKey: Guid(31d9cdb6fbade944b84a4a3fb237d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainTopD.prefab using Guid(31d9cdb6fbade944b84a4a3fb237d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95b83b9aa4dc18e85b758529226e901') in 0.019410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor01D.prefab
+  artifactKey: Guid(e158d3f5328e1fe4196ecc5d8eebcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor01D.prefab using Guid(e158d3f5328e1fe4196ecc5d8eebcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8079b7259ded1aeb2c47ca4f788a99dc') in 0.017321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/CoinD.prefab
+  artifactKey: Guid(de24e9dac65bddc40bc8f81e2245a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/CoinD.prefab using Guid(de24e9dac65bddc40bc8f81e2245a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc55e76800eb470bcf21f62433a58666') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateTrapD.prefab
+  artifactKey: Guid(e93ca683b6c4378479c82039c346df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateTrapD.prefab using Guid(e93ca683b6c4378479c82039c346df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494d6988f0325062f7a18f35bf8948e6') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike02D.prefab
+  artifactKey: Guid(ebd40ddc8b7a7d04ca07ec48b1c54d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike02D.prefab using Guid(ebd40ddc8b7a7d04ca07ec48b1c54d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4bf9d7f1fd2c27e6fcc03a88c89372') in 0.018094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/StatueD.prefab
+  artifactKey: Guid(6510b78b29817ba419712695865372be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/StatueD.prefab using Guid(6510b78b29817ba419712695865372be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40462f16f30d1ae2b288ca008e64d2d7') in 0.015948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BarrelD.prefab
+  artifactKey: Guid(c768072ffa1531945b297d97ec55f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BarrelD.prefab using Guid(c768072ffa1531945b297d97ec55f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6966a73c6386ebb10709b3cc5dabf6ae') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.432013 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Scripts
+  artifactKey: Guid(3df28a349a1c766478c09884ca8778a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Scripts using Guid(3df28a349a1c766478c09884ca8778a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333429d30ce704c09e06228ac467b467') in 0.009250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983838 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs
+  artifactKey: Guid(bbfc9ddd4ef5c6f47afe9453d93658aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs using Guid(bbfc9ddd4ef5c6f47afe9453d93658aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08412283070c6df1627978b2b026fed3') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.846911 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Textures/ColorPaletteRED.png
+  artifactKey: Guid(df91319b80fe8544fa0763ae437d8b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Textures/ColorPaletteRED.png using Guid(df91319b80fe8544fa0763ae437d8b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1140dfac4bbadef3f562a4b67ba97487') in 0.023251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.525994 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Textures/ColorPaletteBLUE.png
+  artifactKey: Guid(4ab84771e67addf4a830ed400d878fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Textures/ColorPaletteBLUE.png using Guid(4ab84771e67addf4a830ed400d878fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d29a038d9ac9d808f0ba8ad42dd5258') in 0.018304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Textures/Water.png
+  artifactKey: Guid(3ebe8595421400c45a0ede3010567933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Textures/Water.png using Guid(3ebe8595421400c45a0ede3010567933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53952b1d56254806e6103d055dab1de6') in 0.018064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.762230 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BannerHolderLD.prefab
+  artifactKey: Guid(985263db2533b52419975554afebca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BannerHolderLD.prefab using Guid(985263db2533b52419975554afebca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d4d309aaf3d58fe3ae27ab35da07c') in 0.016448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike01D.prefab
+  artifactKey: Guid(cdf0efc2fc33b6f4588aeb36dfc0dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike01D.prefab using Guid(cdf0efc2fc33b6f4588aeb36dfc0dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6b002a94fad86c7298cd0982da193e') in 0.013425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/TowerD.prefab
+  artifactKey: Guid(c428cce7819544e43825d891347548d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/TowerD.prefab using Guid(c428cce7819544e43825d891347548d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6db57ebf451ca665470811da5eb063') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/SkullOpenD.prefab
+  artifactKey: Guid(ff9a53b324f9aa54a88bbffc8aa95b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/SkullOpenD.prefab using Guid(ff9a53b324f9aa54a88bbffc8aa95b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7214d0469bdf6e7ed761cb3024386732') in 0.013147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockS02D.prefab
+  artifactKey: Guid(da069710315859f45b006a49bab26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockS02D.prefab using Guid(da069710315859f45b006a49bab26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13944ecbb15dfdbb356a5b38f95b54d8') in 0.010777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainD.prefab
+  artifactKey: Guid(64825d6cefec54e4cb33751b82e00e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainD.prefab using Guid(64825d6cefec54e4cb33751b82e00e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6996d14295989116bf911df32fc29991') in 0.011909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChestTD.prefab
+  artifactKey: Guid(4e9a09516d6185f4eb1ba53020dedffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChestTD.prefab using Guid(4e9a09516d6185f4eb1ba53020dedffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1da0b6288b36c1785421466cf93cc2c') in 0.011468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/Window.prefab
+  artifactKey: Guid(1e79dbc17f432da4bbadfe8f90200c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/Window.prefab using Guid(1e79dbc17f432da4bbadfe8f90200c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde39ac04fc9d3175317f20523c1eed1') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainTopD.prefab
+  artifactKey: Guid(31d9cdb6fbade944b84a4a3fb237d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/ChainTopD.prefab using Guid(31d9cdb6fbade944b84a4a3fb237d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60d9e03e8ffe71bc786463eb075ba20') in 0.011713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor01D.prefab
+  artifactKey: Guid(e158d3f5328e1fe4196ecc5d8eebcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/Floor01D.prefab using Guid(e158d3f5328e1fe4196ecc5d8eebcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a84c4e0fc1185d64c3a6aa6a447d92a') in 0.017121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/CoinD.prefab
+  artifactKey: Guid(de24e9dac65bddc40bc8f81e2245a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/CoinD.prefab using Guid(de24e9dac65bddc40bc8f81e2245a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a49894ac8b15c6814c22c7b5bd66c49') in 0.013217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateTrapD.prefab
+  artifactKey: Guid(e93ca683b6c4378479c82039c346df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateTrapD.prefab using Guid(e93ca683b6c4378479c82039c346df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a52a2758060ce9c137d9452120df58') in 0.012919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike02D.prefab
+  artifactKey: Guid(ebd40ddc8b7a7d04ca07ec48b1c54d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BlockSpike02D.prefab using Guid(ebd40ddc8b7a7d04ca07ec48b1c54d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62afddcee551127d7497e7591d86d9d7') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/StatueD.prefab
+  artifactKey: Guid(6510b78b29817ba419712695865372be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/StatueD.prefab using Guid(6510b78b29817ba419712695865372be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4199d601b5e42d872cbee15b3e906') in 0.012914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/Dungeon Pack/Prefabs/General/BarrelD.prefab
+  artifactKey: Guid(c768072ffa1531945b297d97ec55f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Dungeon Pack/Prefabs/General/BarrelD.prefab using Guid(c768072ffa1531945b297d97ec55f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea08b7bb689825f0b7dc55c4dc03e1d') in 0.011101 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005849 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\3D Dungeon Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\3D Dungeon Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1749ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3875.
+Memory consumption went from 134.0 MB to 133.9 MB.
+Total: 5.882900 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.193400 ms MarkObjects: 5.163700 ms  DeleteObjects: 0.147100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
